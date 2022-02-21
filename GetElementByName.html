@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GetElementByTagName. DOM!!!</title>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>This is the welcome message.</p>
+        <h2>Technologies</h2>
+        <p id="second">This is the technologies section.</p>
+        <script type = "text/javascript">
+            var paragraphs=document.getElementsByTagName("p");
+            alert("Content in the second paragraph is " + paragraphs[1].innerHTML);
+            document.getElementByID("second").innerHTML="The original message is changed.";
+            
+        </script>
+
+
+    </body>
+</html>
